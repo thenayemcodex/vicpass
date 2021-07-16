@@ -3,8 +3,26 @@ from os import close,unlink
 import os
 import random
 from types import new_class
-## Requiriment section
-os("pkg install python2")
+##colore section
+red = '\003[1;91m'
+green = '\003[1;92m'
+yellow = '\003[1;93m'
+blue = '\003[1;94m'
+purple = '\003[1;95m'
+cyan = '\003[1;96m'
+## owner info section
+logo = '''\033[1;92m] ▄▄    ▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄    ▄▄   ▄▄ ▄▄▄▄▄▄ ▄▄▄▄▄▄▄ ▄▄▄   ▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄   
+\033[1;92m]█  █  █ █       █       █  ▄    █  █  █ █  █      █       █   █ █ █       █   ▄  █  
+\033[1;91m]█   █▄█ █   ▄   █   ▄   █ █▄█   █  █  █▄█  █  ▄   █       █   █▄█ █    ▄▄▄█  █ █ █  
+\033[1;91m]█       █  █ █  █  █ █  █       █  █       █ █▄█  █     ▄▄█      ▄█   █▄▄▄█   █▄▄█▄ 
+\033[1;91m]█  ▄    █  █▄█  █  █▄█  █  ▄   █   █   ▄   █      █    █  █     █▄█    ▄▄▄█    ▄▄  █
+\033[1;92m]█ █ █   █       █       █ █▄█   █  █  █ █  █  ▄   █    █▄▄█    ▄  █   █▄▄▄█   █  █ █
+\033[1;92m]█▄█  █▄▄█▄▄▄▄▄▄▄█▄▄▄▄▄▄▄█▄▄▄▄▄▄▄█  █▄▄█ █▄▄█▄█ █▄▄█▄▄▄▄▄▄▄█▄▄▄█ █▄█▄▄▄▄▄▄▄█▄▄▄█  █▄█
+'''
+print(logo)
+print('\033[1;92m]Owner: Tahsan Nayem')
+print('\033[1;91m]Follow me : https://www.facebook.com/ntahsan.nayem')
+
 
 ##userlogin section
 user = 'Tahsan Nayem'
