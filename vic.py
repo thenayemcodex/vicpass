@@ -28,7 +28,8 @@ print (noob)
 print('\033[1;92m NOOB-HACKER71.\nWe work to protect Bangladesh')
 
 print('\033[1;94m ***************************************************************************************************')
-print('\033[1;92m Owner: Tahsan Nayem')
+print('\033[1;91m    Github : https://github.com/Noob-Hacker71')
+print('\033[1;92m      Owner: Tahsan Nayem')
 print('\033[1;92m Follow me : https://www.facebook.com/ntahsan.nayem')
 print('\033[1;94m ***********************************************************************************************************')
 
