@@ -18,7 +18,7 @@ You need to install python2 for run this tool
  .
  .
  ## COMMANDS 
- $ cd vicpass.py
+ $ cd vicpass
  $ python3 vic.py 
  
  .
