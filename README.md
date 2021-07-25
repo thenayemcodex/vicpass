@@ -1,6 +1,7 @@
-you need to install python2 for run this tool
-this tool will provide you the victim based password list
-this automatically make password.txt file to your working directory 
+If you Searching for a victim profile based passwords list maker . Congratulations this tool is for you .
+This tool will provide you the victim based password list
+This tool automatically make password.txt file to your working directory 
+You need to install python2 for run this tool
 .
 .
 .
@@ -27,33 +28,35 @@ this automatically make password.txt file to your working directory
  .
  .
  # input 
- enter victim name :
+ Enter victim name :
  .
- enter victim surname :
+ Enter victim surname :
  .
- enter victim Nickname :
+ Enter victim Nickname :
  .
  victim's pertner name :
  .
- fater's name :
+ Fater's name :
  .
- mother's name :
+ Mother's name :
  .
  1st 5 digit phone number :
  .
  victim full phone number :
-  input proccess fifnished 
-  ## 
+  
+  Input proccess fifnished 
+  ## password.txt file path
+  
   password.txt file will be created in your pwd ,...........
   .
   .
   .
   .
   .
-  if you want copy the script give cradit to the respective owner .. thank you ...
+  |If you want copy the script give cradit to the respective owner .. thank you ...
   
   
   .
   .
-   keep support me ...
+   Keep support me ...
    
