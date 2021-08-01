@@ -98,6 +98,6 @@ for var in range(0, 10):
 
     pas = (all)
 
-    file = open('password.txt''\n', 'a')
+    file = open('password.txt', 'a')
     file.write((all))
     file.close()
