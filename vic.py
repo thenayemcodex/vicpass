@@ -87,7 +87,7 @@ else:
 
 ##function section
 
-for var in range(0, 10):
+for var in range(0, 10000000):
     na = name+str(var)
     #print(na)
     aa = surname+str(var)
