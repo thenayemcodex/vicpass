@@ -28,8 +28,7 @@ print (noob)
 print('\033[1;92m NOOB-HACKER71.\nWe work to protect Bangladesh')
 
 print('\033[1;94m ***************************************************************************************************')
-print('\033[1;91m    Github : https://github.com/Noob-Hacker71')
-print('\033[1;92m      Owner: Tahsan Nayem')
+print('\033[1;92m Owner: Tahsan Nayem')
 print('\033[1;92m Follow me : https://www.facebook.com/ntahsan.nayem')
 print('\033[1;94m ***********************************************************************************************************')
 
@@ -61,7 +60,7 @@ nickname = input('\033[1;93m Nickname :')
 
 gf = input('\033[1;94m Pertner name :')
 
-father = input("\033[1;95m Mather's name :")
+father = input("\033[1;95m Father's name :")
 
 mother = input("\033[1;96m Mother's name :")
 
@@ -69,23 +68,13 @@ number = input('\033[1;92m Victim 1st 5 digit phone number :')
 numbr = input('\033[1;91m Enter full number :' )
 print(numbr[6:12])
 
-show = 'yes'
-showinput = input('Do you want to see the passwords : ')
-if showinput == show
-    print(na)
-    print(aa)
-    print(bb)
-    print(cc)
-    print(dd)
-    print(ee)
-    print(ff)
-    print(gg)
-    print(hh)
-    print(jj)
-else:
-    print('password will shown in the password.txt file')
+
+
 
 ##function section
+
+shoe = 'yes'
+show = input('Do you wanto see the passwords :')
 
 for var in range(0, 10000000):
     na = name+str(var)
@@ -109,6 +98,22 @@ for var in range(0, 10000000):
 
     jj = numbr+str(var)
     #print (jj)
+    
+    if show == shoe:
+        print(aa)
+        print(na)
+        print(bb)
+        print(cc)
+        print(dd)
+        print(ee)
+        print(ff)
+        print(gg)
+        print(hh)
+        print(jj)
+
+    else:
+        print('Password will be found in the password.txt file')
+    
 
     file = open('password.txt', 'a')
     file.write(na+'\n')
@@ -121,4 +126,6 @@ for var in range(0, 10000000):
     file.write(gg+'\n')
     file.write(hh+'\n')
     file.write(jj+'\n')
+
+
     file.close()
