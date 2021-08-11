@@ -77,7 +77,7 @@ You need to install python3 for run this tool.
   
   ## DISCLIMMER 
   
-  If you want copy the script give cradit to the respective owner .. thank you ...
+  If you want to copy this script give cradit to the respective owner .. thank you ...
   
   
   
