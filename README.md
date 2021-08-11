@@ -1,7 +1,7 @@
 If you Searching for a victim profile based passwords list maker . Congratulations this tool is for you .
 This tool will provide you the victim based password list
 This tool automatically make password.txt file to your working directory 
-You need to install python2 for run this tool
+You need to install python3 for run this tool
 .
 .
 .
