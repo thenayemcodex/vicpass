@@ -21,8 +21,8 @@ You need to install python3 for run this tool
  Just Copy and Paste in your Termux terminal
  
 ## COMMANDS FOR KALI LINUX
- $ sudo apt-get install git -y
- $ sudo apt-get install python3 -y
+ $ sudo apt-get install git -y .
+ $ sudo apt-get install python3 -y .
  $ git clone https://github.com/Noob-Hacker71/vicpass
  $ cd vicpass
  $ python3 vic.py 
@@ -49,12 +49,13 @@ You need to install python3 for run this tool
 
  victim full phone number :
   
-  Input proccess fifnished 
+  Input proccess finished 
  ## password.txt file path
   
   password.txt file will be created in your pwd ,...........
   
-  |If you want copy the script give cradit to the respective owner .. thank you ...
+  ## DISCLIMMER 
+  If you want copy the script give cradit to the respective owner .. thank you ...
   
   
   
