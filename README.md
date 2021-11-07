@@ -1,4 +1,4 @@
-## details:
+## Details:
 
 If you Searching for a victim profile based passwords list maker .
 
@@ -12,16 +12,15 @@ You need to install python3 for run this tool.
 
 
 
- ## REQUIREMENT 
+ <h1>REQUIREMENT </h1>
+ <b>
+* Kali-Linux
+* Termux
+</b>
  
- $ iNSTALL TERMUX
  
- $ INSTALL KALI
- 
- 
- 
- ## COMMANDS FOR TERMUX
- 
+ <h3>COMMANDS FOR TERMUX</h3>
+ <p>
  $ apt install git -y
  
  $ apt install python3 -y
@@ -32,7 +31,7 @@ You need to install python3 for run this tool.
  
  $ python3 vic.py 
  
- Just Copy and Paste in your Termux terminal
+ Just Copy and Paste in your Termux </p>
  
 ## COMMANDS FOR KALI LINUX
 
