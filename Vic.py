@@ -4,19 +4,27 @@ from time import sleep
 
 ##Requirement section
 try:
+  import lolcat
+except:
+  print("\033[1;36m")
+  os.system("pip install lolcat")
+  print("\033[1;36m\n[+] lolcat has been installed")
+  sleep(1)
+try:
   import python3
 except:
-  print("\033[1;33m")
-  os.system('apt install python3 -y')
-  print('python has been install ')
+  
+  os.system('apt install python3 -y |lolcat')
+  print('"\033[1;36m\n[+] python has been install ')
   sleep(2)
 try:
   import figlet
 except:
-  print("\033[1;34m")
-  os.system('apt install figlet -y')
-  print('figlet has been isntalled ')
+  
+  os.system('apt install figlet -y | lolcat')
+  print('"\033[1;36m\n[+] figlet has been isntalled ')
   sleep(2)
+
 
 ## owner info section
 
@@ -28,10 +36,11 @@ sleep(1)
 print ("\033[1;33m")
 os.system("figlet -f big Vic-Pass")
 sleep(1)
+print("\n\t\t\033[1;36m[version : 0.0.2]")
 while True:
     loguser = input('\033[1;35m\n\n[+] Enter Tool Username :')
     sleep(2)
-    if loguser == "NOOB-HACKER71":
+    if loguser == "Noob-Hacker71":
         print('\033[1;92m\n\n\t[+] Currect ')
         logpas = input('\033[1;91m\n\n[+] Enter Tool Password :')
         sleep(2)
@@ -42,24 +51,20 @@ while True:
             break
         else:
             print("\033[1;91m \n\n\t[+] Access Denied")
+            os.system("xdg-open https://github.com/Noob-hacker71/vicpass")
     else:
         print('\033[1;91m\n\n\t[+] Wrong UserName\n\n[+] Try Again',usr,'sir')
+        os.system("xdg-open https://github.com/Noob-hacker71/vicpass")
         
 os.system("clear")
 sleep(1)
 print('\033[1;94m *********************************************************************')
 sleep(1)
-noob = '''
-\033[1;92m     __            _          \033[1;92m                  _           \033[1;91m _____ _ 
-\033[1;92m  /\ \ \___   ___ | |__       \033[1;92m  /\  /\__ _  ___| | _____ _ _\033[1;91m|___  / |
-\033[1;92m /  \/ / _ \ / _ \| '_ \ \033[1;91m_____\033[1;92m / /_/ / _` |/ __| |/ / _ \ '__|\033[1;91m / /| |
-\033[1;92m/ /\  / (_) | (_) | |_) |\033[1;91m_____\033[1;92m/ __  / (_| | (__|   <  __/ |   \033[1;91m/ / | |
-\033[1;92m\_\ \/ \___/ \___/|_.__/      \033[1;92m\/ /_/ \__,_|\___|_|\_\___|_| \033[1;91m /_/  |_|
-'''
-print (noob)
+os.system("figlet -f big Noob-Hacker71 | lolcat")
 sleep(1)
-
-print("\033[1;94m\n[+] Termux Hacker BD {THBD}")
+print('\033[1;94m *********************************************************************')
+sleep(1)
+print("\033[1;93m\n[+] Termux Hacker BD {THBD}")
 sleep(1)
 print("\033[1;33m\n[+] We work to protect Bangladesh")
 sleep(1)
@@ -67,7 +72,9 @@ print('\033[1;94m\n ************************************************************
 sleep(1)
 print('\033[1;92m[+] Author : Tahsan Nayem')
 sleep(1)
-print('\033[1;92m\n[+] Follow me : https://www.facebook.com/ntahsan.nayem')
+print('\033[1;92m\n[+] Follow me : https://www.facebook.com/Noob.Hacker71')
+sleep(1)
+print('\033[1;92m\n[+] Follow me : https://www.github.com/Noob-Hacker71')
 sleep(1)
 print('\033[1;94m**********************************************************************')
 
@@ -167,15 +174,15 @@ print('\n\n[+] Password.txt file done')
 sleep(1)
 see = input('\033[1;95m\n\n[+] Do You want see the passwords [y/n] :  ')
 sleep(2)
-y="y"
-if see==y:
+yes="y"
+if see==yes:
   os.system('cat password.txt')
 else:
   print("\033[1;35m\n\n[+] Run 'cat password.txt' For see password manually ")
 sleep(1)
 run=input("\033[1;33m\n\n[+]Do you Want to run again [y/n] : ")
-if run==y:
-  os.system("python3 Task.py")
+if run==yes:
+  os.system("python3 Vic.py")
 else:
   print("\033[1;36m\n\nThank you for using me.",usr,"sir")
   exit()
