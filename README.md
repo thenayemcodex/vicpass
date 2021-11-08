@@ -53,6 +53,12 @@ You need to install python3 for run this tool.
 
 <h2>Inputs</h2>
 
+<h5>
+tool username : Noob-Hacker71
+
+Tool password : THBD
+</h5>
+
  Enter victim name :
 
  Enter victim surname :
