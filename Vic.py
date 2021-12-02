@@ -115,7 +115,7 @@ else:
   file.write(number+'\n')
 
 
-for var in range(0, 100):
+for var in range(0, 999999):
   
   if name=="":
     pass
