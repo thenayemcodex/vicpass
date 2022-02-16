@@ -32,7 +32,7 @@ You need to install python3 for run this tool.
  
  $ cd vicpass
  
- $ python vic.py 
+ $ python Vic.py 
  
  Just Copy and Paste in your Termux </p>
  
@@ -46,7 +46,7 @@ You need to install python3 for run this tool.
  
  $ cd vicpass
  
- $ python vic.py 
+ $ python Vic.py 
  
  Just Copy and Paste in your Kali Linux terminal
 
@@ -79,7 +79,7 @@ Tool password : THBD
  victim full phone number :
 
 
-  Input proccess finished 
+ <H3>Input proccess finished</h3>
   
  ## password.txt file path
   
