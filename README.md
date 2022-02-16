@@ -26,13 +26,13 @@ You need to install python3 for run this tool.
  <p>
  $ apt install git -y
  
- $ apt install python3 -y
+ $ apt install python -y
  
  $ git clone https://github.com/Noob-Hacker71/vicpass
  
  $ cd vicpass
  
- $ python3 vic.py 
+ $ python vic.py 
  
  Just Copy and Paste in your Termux </p>
  
@@ -40,25 +40,25 @@ You need to install python3 for run this tool.
 
  $ sudo apt-get install git -y 
  
- $ sudo apt-get install python3 -y 
+ $ sudo apt-get install python -y 
  
  $ git clone https://github.com/Noob-Hacker71/vicpass
  
  $ cd vicpass
  
- $ python3 vic.py 
+ $ python vic.py 
  
  Just Copy and Paste in your Kali Linux terminal
 
 
 <h2>Inputs</h2>
 
-<h5>
+<h4>
 tool username : Noob-Hacker71
 
 Tool password : THBD
-</h5>
-
+</h4>
+'''
  Enter victim name :
 
  Enter victim surname :
@@ -77,7 +77,7 @@ Tool password : THBD
  1st 5 digit phone number :
 
  victim full phone number :
-  
+'''
   Input proccess finished 
   
  ## password.txt file path
@@ -90,6 +90,6 @@ Tool password : THBD
   
   
   
-   Keep support me ...
+  <a hreg="https://www facebook.com/Noob.Hacker71"> Keep support me ...</a>
 </body>
 </html>
