@@ -58,7 +58,7 @@ tool username : Noob-Hacker71
 
 Tool password : THBD
 </h4>
-'''
+
  Enter victim name :
 
  Enter victim surname :
@@ -77,7 +77,8 @@ Tool password : THBD
  1st 5 digit phone number :
 
  victim full phone number :
-'''
+
+
   Input proccess finished 
   
  ## password.txt file path
@@ -90,6 +91,6 @@ Tool password : THBD
   
   
   
-  <a hreg="https://www facebook.com/Noob.Hacker71"> Keep support me ...</a>
+ <a hreg="https://www facebook.com/Noob.Hacker71"> Keep support me ...</a>
 </body>
 </html>
